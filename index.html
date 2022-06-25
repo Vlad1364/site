@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ПРИВІТАННЯ :3</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+
+
+body{
+	margin: 0 0 ;
+	background-image: url(fon.jpeg);
+	background-size: cover;
+}		
+.container{
+	position: absolute;
+	height: 100%;
+	width: 96%;
+	margin-left: 2%;
+	box-shadow: 0px 0px 25px black;
+	background: #fff5;
+    backdrop-filter: blur(3px);
+    display:grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    grid-gap: 1em; 
+    margin-top: 0;
+
+}
+.photo1{
+	position: relative;
+	background-size: cover;
+	grid-column-start: 1;
+	grid-column-end: 8;
+	grid-row-start: 2;
+    grid-row-end: 7;
+}
+.fon1,.fon3{
+	position: relative;
+	border: 10px solid white;
+	background-color: yellow;
+	height: 90%;
+	width: 30%;
+	margin-left: 7.5%;
+	margin-top: 2.5%;
+	
+	z-index: 2;
+	
+}
+.fon1{
+ background-image: url(01.jpg);
+ background-size: cover;
+ transform: rotate(-10deg);
+    margin-left: 10%;
+	margin-top: 4%;
+}
+.fon2{
+ background-image: url(02.jpg);
+ background-size: cover;
+ transform: rotate(-15deg);
+   margin-left: 15%;
+	margin-top: -3%;
+}
+.fon3{
+ background-image: url(03.jpg);
+ background-size: cover;
+ transform: rotate(-5deg);
+   margin-left: 10%;
+	margin-top: 15%;
+}
+.fon4{
+ background-image: url(04.jpg);
+ background-size: cover;
+ transform: rotate(10deg);
+   margin-left: 10%;
+	margin-top: 5%;
+ 
+
+}
+.fon2,.fon4{
+	position: relative;
+	border: 10px solid white;
+	background-color: yellow;
+	height: 90%;
+	width: 30%;
+	z-index: 2;
+}
+.text1,.text3{
+	position: absolute;
+	background-color: white;
+	height: 60%;
+	width: 75%;
+	margin-top: -40%;
+	margin-left: 25%;
+	z-index: 1;
+	font-family: 'Lobster', cursive;
+}
+.text2,.text4{
+	position: absolute;
+	transform: scale(-1, 1);
+	background-color: white;
+	height: 60%;
+	width: 75%;
+	margin-top: -40%;
+	margin-left: 25%;
+	z-index: 1;
+	font-family: 'Lobster', cursive;	
+}
+ .text4 p{
+ 	margin-left: 15px;
+ 	margin-top:20px;
+ 	font-size: 1.7vh;
+ }
+ .text2 p{
+ 	margin-left: 15px;
+ 	margin-top: 20px;
+ 	font-size: 1.7vh;
+ }
+  .text1 p{
+ 	margin-left: 125px;
+ 	margin-top: 20px;
+ 	font-size: 1.7vh;
+ }
+  .text3 p{
+ 	margin-left: 125px;
+ 	margin-top: 20px;
+ 	font-size: 1.7vh;
+ }
+
+.photo2{
+	position: relative;
+	transform: scale(-1, 1);
+	background-size: cover;
+	grid-column-start: 14;
+	grid-column-end: 21;
+	grid-row-start: 2;
+    grid-row-end: 7;
+}
+.photo3{
+	position: relative;
+	background-size: cover;
+	grid-column-start: 1;
+	grid-column-end: 8;
+	grid-row-start: 10;
+    grid-row-end: 15;
+}
+.photo4{
+	position: relative;
+	background-size: cover;
+	transform: scale(-1, 1);
+	grid-column-start: 14;
+	grid-column-end: 21;
+	grid-row-start: 10;
+    grid-row-end: 15;
+}
+.sk1{
+ background-image: url(h.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ width: 25%;
+ height: 20%;
+ margin-left: -17px;
+ margin-top: -10px;	
+}
+.sk2{
+ background-image: url(h.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ width: 25%;
+ height: 20%;
+ margin-left: -20px;
+ margin-top: -10px;	
+}
+.sk3{
+ background-image: url(h.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ width: 25%;
+ height: 20%;
+ margin-left: 50px;
+ margin-top: -10px;	
+}
+.sk4{
+ background-image: url(h.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ width: 25%;
+ height: 20%;
+ margin-left: 20px;
+ margin-top: -10px;	
+}
+.dog{
+
+	background-image: url(dogf.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+    grid-column-start: 8;
+	grid-column-end: 14;
+	grid-row-start: 5;
+    grid-row-end: 10;
+
+}
+canvas{
+ position: absolute;
+ z-index: 100;
+}
+audio{
+  position: absolute;
+  z-index: 110;
+}
+
+
+
+
+	</style>
+</head>
+ <canvas id="world"></canvas>
+	
+<div class="container">
+	
+
+
+<div class="photo1">
+	<div class="fon1"> <div class="sk1"></div></div>
+	<div class="text1">	
+	     <p>
+		 Прийми мої найтепліші та найщиріші
+        <br> привітання.Кілохтось я бажаю тобі
+        <br> бути завжди щасливою та усміхненою
+        <br> доброю та чуйною, щоб всі твої мрії
+        <br> збувалися, а проблеми обходили тебе
+        <br> стороною!!! :3
+        
+
+
+		</p>
+	</div>
+</div>
+
+
+
+
+
+<div class="photo2">
+	<div class="fon2"><div class="sk2"></div></div>
+	<div class="text2">
+		<p>
+		 Ти дівчина, яка може зробити цей світ
+        <br> добрішим і розумнішим.Ти подібна
+        <br> зірочці, яка може дуже яскраво сяяти.
+        <br> Я хочу, щоб ніяка погода і ніякі 
+        <br> обставини не впливали на твій 
+        <br> настрій!!!
+		</p>
+	</div>
+</div>
+
+<div class="photo3">
+	<div class="fon3"><div class="sk3"></div></div>
+	<div class="text3">
+		<p>
+		 Залиш всі справи і тривоги! Твій яскравий 
+        <br> день настав сьогодні. Нехай мрії
+        <br> стають цілями, а цілі — досягненнями!
+        <br> Щастя, здоров’я і благополуччя!
+		</p>
+	</div>
+</div>
+
+
+
+
+
+<div class="photo4">
+	<div class="fon4"><div class="sk4"></div></div>
+	<div class="text4">
+		<p>
+		 Вітаю тебе і бажаю ніколи не сумувати
+        <br> через дрібниці забувати погане і радіти.
+        <br> Продовжуй покращувати цей світ своєю
+        <br> посмішкою. Залишайся такою ж, якою 
+        <br> ти є: прекрасною, незабутньою, незамінною.
+		</p>
+	</div>
+</div>
+<div class="dog">
+	
+</div>
+
+
+
+</div>
+
+<audio controls>
+	<source src="y.mp3">
+</audio>
+
+<script type="text/javascript">
+(function() {
+    var COLORS, Confetti, NUM_CONFETTI, PI_2, canvas, confetti, context, drawCircle, i, range, resizeWindow, xpos;
+    NUM_CONFETTI = 350;
+    COLORS = [
+        [85, 71, 106],
+        [174, 61, 99],
+        [219, 56, 83],
+        [244, 92, 68],
+        [248, 182, 70]
+    ];
+    PI_2 = 2 * Math.PI;
+    canvas = document.getElementById("world");
+    context = canvas.getContext("2d");
+    window.w = 0;
+    window.h = 0;
+    resizeWindow = function() {
+        window.w = canvas.width = window.innerWidth;
+        return window.h = canvas.height = window.innerHeight;
+    };
+    window.addEventListener('resize', resizeWindow, false);
+    window.onload = function() {
+        return setTimeout(resizeWindow, 0);
+    };
+    range = function(a, b) {
+        return (b - a) * Math.random() + a;
+    };
+    drawCircle = function(x, y, r, style) {
+        context.beginPath();
+        context.arc(x, y, r, 0, PI_2, false);
+        context.fillStyle = style;
+        return context.fill();
+    };
+    xpos = 0.5;
+    document.onmousemove = function(e) {
+        return xpos = e.pageX / w;
+    };
+    window.requestAnimationFrame = (function() {
+        return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function(callback) {
+            return window.setTimeout(callback, 1000 / 60);
+        };
+    })();
+    Confetti = (function() {
+        function Confetti() {
+            this.style = COLORS[~~range(0, 5)];
+            this.rgb = "rgba(" + this.style[0] + "," + this.style[1] + "," + this.style[2];
+            this.r = ~~range(2, 6);
+            this.r2 = 2 * this.r;
+            this.replace();
+        }
+        Confetti.prototype.replace = function() {
+            this.opacity = 0;
+            this.dop = 0.03 * range(1, 4);
+            this.x = range(-this.r2, w - this.r2);
+            this.y = range(-20, h - this.r2);
+            this.xmax = w - this.r;
+            this.ymax = h - this.r;
+            this.vx = range(0, 2) + 8 * xpos - 5;
+            return this.vy = 0.7 * this.r + range(-1, 1);
+        };
+        Confetti.prototype.draw = function() {
+            var ref;
+            this.x += this.vx;
+            this.y += this.vy;
+            this.opacity += this.dop;
+            if (this.opacity > 1) {
+                this.opacity = 1;
+                this.dop *= -1;
+            }
+            if (this.opacity < 0 || this.y > this.ymax) {
+                this.replace();
+            }
+            if (!((0 < (ref = this.x) && ref < this.xmax))) {
+                this.x = (this.x + this.xmax) % this.xmax;
+            }
+            return drawCircle(~~this.x, ~~this.y, this.r, this.rgb + "," + this.opacity + ")");
+        };
+        return Confetti;
+    })();
+    confetti = (function() {
+        var j, ref, results;
+        results = [];
+        for (i = j = 1, ref = NUM_CONFETTI; 1 <= ref ? j <= ref : j >= ref; i = 1 <= ref ? ++j : --j) {
+            results.push(new Confetti);
+        }
+        return results;
+    })();
+    window.step = function() {
+        var c, j, len, results;
+        requestAnimationFrame(step);
+        context.clearRect(0, 0, w, h);
+        context.fillStyle = "rgba(0, 0, 200, 1)";
+        results = [];
+        for (j = 0, len = confetti.length; j < len; j++) {
+            c = confetti[j];
+            results.push(c.draw());
+        }
+        return results;
+    };
+    step();
+}).call(this);
+</script>
+</body>
+</html>
